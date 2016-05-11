@@ -1,6 +1,7 @@
 # EasiestGameEver
 
 Windows Forms Project by: Angel Miladinov, Emilija Nacova and Simona Zlatanova
+
 1.	Опис на апликацијата
 Апликацијата што ја развиваме е наша имплеметација на играта „The 
 Hardest Game Ever“. Целта на играта е да го однесете црвеното квадратче 
@@ -30,6 +31,7 @@ Hardest Game Ever“. Целта на играта е да го однесете
 Во класата Ball се креираат топчињата кои што ги претставуваат 
 пречките. Овде се дефинирани координатите на топчето како и неговиот 
 радиус.
+        
         public Ball(Point center, float radius, Rectangle rec)
         {
             X = center.X;
@@ -40,7 +42,8 @@ Hardest Game Ever“. Целта на играта е да го однесете
 
             pen = new Pen(Color.Black);
             solidBrush = new SolidBrush(color);
- }
+         }
+         
 3.2	Апстрактна класа
 -	За потребите на играта креирана е апстрактната класа Level.cs во 
 која се дефинирани димензиите на прозорецот на прикажување на 
